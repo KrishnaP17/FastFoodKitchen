@@ -21,7 +21,7 @@ public class FastFoodKitchen {
         
         //PART A
         
-        /*Order order1 = new Order(3, 5, 4, 10, true, 1);
+        Order order1 = new Order(3, 5, 4, 10, true, 1);
         Order order2 = new Order(0, 0, 3, 3, false, 2);
         Order order3 = new Order(1, 1, 0, 2, false, 3);
         
@@ -31,15 +31,15 @@ public class FastFoodKitchen {
         System.out.println("Order{" + "numHamburger=" + order2.getnumHamburgers() + ", numCheeseburgers=" + order2.getnumCheeseburgers() + ", numVeggieburgers=" + order2.getnumVeggieburgers() + ", numSodas=" + order2.getnumSodas() + ", orderToGo=" + order2.isOrderToGo() + ", orderNum=" + order2.getorderNum() + '}');
         System.out.println("Order{" + "numHamburger=" + order3.getnumHamburgers() + ", numCheeseburgers=" + order3.getnumCheeseburgers() + ", numVeggieburgers=" + order3.getnumVeggieburgers() + ", numSodas=" + order3.getnumSodas() + ", orderToGo=" + order3.isOrderToGo() + ", orderNum=" + order3.getorderNum() + '}');
 
-        */
         
         
-/*FastFoodKitchenSimulation kitchen = new FastFoodKitchenSimulation();
+        
+FastFoodKitchenSimulation kitchen = new FastFoodKitchenSimulation();
 
 
 Scanner sc = new Scanner(System.in);
 
-/*
+
 while (kitchen.getNumOrdersPending() != 0) {
     // see what the user wants to do
     System.out.println("Please select from the following menu of options, by typing a number:");
@@ -120,9 +120,9 @@ while (kitchen.getNumOrdersPending() != 0) {
 
 } // end while loop
 
-/*PART B LAB 3
-kitchen.selectionSort(); */
-/*kitchen.insertionSort();
+// PART B LAB 3
+kitchen.selectionSort(); 
+kitchen.insertionSort();
 
 ArrayList<Order> sortedOrders = kitchen.getOrderList();
 int orderSize = 0;
@@ -133,7 +133,6 @@ for(Order order : sortedOrders){
 
 int orderPosition = kitchen.findOrderBin(2);
 System.out.println("The binary search >> order position is " + orderPosition);
-*/
 
 
 
