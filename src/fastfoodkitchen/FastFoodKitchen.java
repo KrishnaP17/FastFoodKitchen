@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package fastfoodkitchen;
-// System.out.println("Hello");
+
 //import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
